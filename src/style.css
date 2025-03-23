@@ -1,0 +1,41 @@
+/* Container styles */
+.container {
+    background-color: #f9f9f9;
+    color: #1a1a1a;
+    padding: 40px;
+    text-align: center;
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.container.dark {
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+}
+
+/* Input styling */
+.name-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+/* Button styling */
+.toggle-btn {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius:8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .container.dark .toggle-btn {
+        background-color: #4CAF50;
+    }
